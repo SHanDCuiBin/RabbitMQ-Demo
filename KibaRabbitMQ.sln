@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KibaRabbitMQ.0.Common", "KibaRabbitMQ.Common\KibaRabbitMQ.0.Common.csproj", "{B9A34554-C484-42F7-B1A2-DD72E04179F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KibaRabbitMQ.1.Simple模式", "KibaRabbitMQ.Simple模式\KibaRabbitMQ.1.Simple模式.csproj", "{274D6DE3-F027-4F4E-A977-A7046920A160}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KibaRabbitMQ.2.Work工作模式", "KibaRabbitMQ.2.Work工作模式\KibaRabbitMQ.2.Work工作模式.csproj", "{A0B828D4-6B3A-477E-99E7-9DDC59519890}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KibaRabbitMQ.3.PulishSubscribe发布订阅模式", "KibaRabbitMQ.3.PulishSubscribe发布订阅模式\KibaRabbitMQ.3.PulishSubscribe发布订阅模式.csproj", "{93F22C01-7F3C-4696-9B82-8B1C5D79CB88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KibaRabbitMQ.4.Routing路由模式", "KibaRabbitMQ.4.Routing路由模式\KibaRabbitMQ.4.Routing路由模式.csproj", "{EA59DFEE-A982-4CF4-9999-797B210DD842}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KibaRabbitMQ.5.topics主题模式", "KibaRabbitMQ.5.topics主题模式\KibaRabbitMQ.5.topics主题模式.csproj", "{A66F18D9-4B9D-448D-BDF7-136832B25E0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KibaRabbitMQ.6.RPC模式(控制台)", "KibaRabbitMQ.6.RPC模式(控制台)\KibaRabbitMQ.6.RPC模式(控制台).csproj", "{083627E3-27FC-4431-890F-1128C49F7E6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9A34554-C484-42F7-B1A2-DD72E04179F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A34554-C484-42F7-B1A2-DD72E04179F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A34554-C484-42F7-B1A2-DD72E04179F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A34554-C484-42F7-B1A2-DD72E04179F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{274D6DE3-F027-4F4E-A977-A7046920A160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{274D6DE3-F027-4F4E-A977-A7046920A160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{274D6DE3-F027-4F4E-A977-A7046920A160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{274D6DE3-F027-4F4E-A977-A7046920A160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B828D4-6B3A-477E-99E7-9DDC59519890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B828D4-6B3A-477E-99E7-9DDC59519890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B828D4-6B3A-477E-99E7-9DDC59519890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B828D4-6B3A-477E-99E7-9DDC59519890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93F22C01-7F3C-4696-9B82-8B1C5D79CB88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93F22C01-7F3C-4696-9B82-8B1C5D79CB88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93F22C01-7F3C-4696-9B82-8B1C5D79CB88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93F22C01-7F3C-4696-9B82-8B1C5D79CB88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA59DFEE-A982-4CF4-9999-797B210DD842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA59DFEE-A982-4CF4-9999-797B210DD842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA59DFEE-A982-4CF4-9999-797B210DD842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA59DFEE-A982-4CF4-9999-797B210DD842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A66F18D9-4B9D-448D-BDF7-136832B25E0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A66F18D9-4B9D-448D-BDF7-136832B25E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A66F18D9-4B9D-448D-BDF7-136832B25E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A66F18D9-4B9D-448D-BDF7-136832B25E0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{083627E3-27FC-4431-890F-1128C49F7E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{083627E3-27FC-4431-890F-1128C49F7E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{083627E3-27FC-4431-890F-1128C49F7E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{083627E3-27FC-4431-890F-1128C49F7E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FE205A7-1A85-421B-BC3E-FC61F8148B3D}
+	EndGlobalSection
+EndGlobal
